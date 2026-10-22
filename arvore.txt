@@ -1,0 +1,25 @@
+LOJA-LUMINA/
+│
+├── app/
+│   ├── __init__.py
+│   ├── routes.py                 [Etapa 2]
+│   ├── data/
+│   │   └── products.json         [Etapa 3]
+│   ├── templates/
+│   │   ├── base.html             [Etapa 2]
+│   │   ├── index.html            [Etapa 2]
+│   │   ├── products.html         [Etapa 3]
+│   │   └── cart.html             [Etapa 3]
+│   └── static/
+│       ├── css/
+│       │   └── style.css         [Etapa 2]
+│       └── js/
+│           └── main.js           [Etapa 3]
+│
+├── tests/
+│   └── test_routes.py            [Etapa 4]
+│
+├── .gitignore                   [Inicial]
+├── README.md                    [Inicial]
+├── requirements.txt             [Inicial]
+└── run.py                       [Inicial]
